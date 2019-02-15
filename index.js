@@ -1,8 +1,7 @@
 const fs = require('fs')
+const _list = require('./nfm.json').nfm.map(v => v.toString())
 
 const nfm = (z, x, y) => {
-  const _list = JSON.parse(fs.readFileSync('nfm.json'))
-    .nfm.map(v => v.toString())
   return _list.includes([z, x, y].toString())
 }
 
