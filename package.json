@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"test": "ava"
+	},
+	"devDependencies": {
+		"ava": "^1.2.1"
+	},
+	"dependencies": {
+		"@mapbox/tilebelt": "^1.0.1"
+	}
+}
