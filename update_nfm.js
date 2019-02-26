@@ -1,3 +1,5 @@
+throw new Error('nfm.json is updated by node-count now.')
+
 const fs = require('fs')
 
 const pbfDir = '../produce-320/pbf'
